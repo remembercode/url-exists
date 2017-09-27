@@ -1,6 +1,6 @@
 {
   "name": "no1-url-exists",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Check if a url exists",
   "main": "index.js",
   "scripts": {
