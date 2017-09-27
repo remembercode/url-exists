@@ -4,7 +4,7 @@ A simple node library to determine if a url exists
 ## Usage
 
 ```javascript
-var urlExists = require('url-exists');
+var urlExists = require('no1-url-exists');
 
 urlExists('https://www.google.com', function(err, exists) {
   console.log(exists); // true
