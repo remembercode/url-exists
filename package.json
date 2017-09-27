@@ -1,6 +1,6 @@
 {
   "name": "no1-url-exists",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Check if a url exists",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/remembercode/url-exists#readme",
   "dependencies": {
-    "request": "^2.69.0"
+    "request": "^2.69.0",
+    "date-time": "^2.1.0"
   }
 }
