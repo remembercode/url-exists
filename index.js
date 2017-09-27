@@ -1,6 +1,5 @@
 var request = require('request');
 var dateTime = require('date-time');
-dateTime({showMilliseconds: true});
 
 function urlExists(url, cb) {
   request({ url: url, method: 'HEAD' }, function(err, res) {
@@ -8,7 +7,7 @@ function urlExists(url, cb) {
     cb(null, {
 		url: url,
 		statusCode: res.statusCode,
-		time: dateTime(),
+		time: dateTime({showMilliseconds: true}),
 		alive: /[4-5]\d\d/.test(res.statusCode) === false
 	});
   });
